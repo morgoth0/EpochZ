@@ -1,0 +1,11 @@
+EpochZ 1.0 by Grahame, nAtOeD and Drokz
+
+Based on ExileZ 2.0 by Patrix87 of http:\\multi-jeux.quebec //
+
+
+
+Forked from Original project named EXILE-Z created by SAM, Otto and CaptionJack of RelentlessServers.com based on Civilian Life by code34.
+
+
+
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
