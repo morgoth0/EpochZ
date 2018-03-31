@@ -1,6 +1,6 @@
 # EpochZ
 
-EpochZ 1.0 by Grahame (morgoth0), Natoed and Drokz
+EpochZ 1.0 by Grahame (morgoth0), nAtOeD and Drokz
 
 Based on ExileZ 2.0 by Patrix87
 
