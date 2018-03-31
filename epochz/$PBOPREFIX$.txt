@@ -1,0 +1,6 @@
+///////<HEADER>///////
+prefix=epochz
+Mikero=DePbo.dll
+Pbo Type is: Arma Addon
+Sha: '5ECBF946A566333477A59D7D68AB338F4DAA8C25'
+//////</HEADER>//////
