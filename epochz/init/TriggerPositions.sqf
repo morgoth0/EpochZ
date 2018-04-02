@@ -1,8 +1,10 @@
 // EpochZ 1.0 by Grahame, nAtOeD and Drokz //
 // Based on ExileZ 2.0 by Patrix87 of http:\\multi-jeux.quebec //
 
-// Other maps below Altis include Chernarus Redux, Tanoa, Australia, Taviana and Takistan. 
+// Other maps below Altis include Chernarus Redux, Tanoa, Australia, Taviana, Takistan and Isla Abramia. 
 // Comment the sections for the maps you do not use and uncomment the map you do
+
+/*
 
 Military = [         
 [16084,16985,180],		// Telos Military
@@ -134,12 +136,11 @@ Heli_Crashes = [
 "Heli_Crashes"           
 ];
 
-/*
+*/
+
 // Chernarus Redux
 
-
 Military = [         
-[3983.14,10900.6,50], //NWAF Medical Camp
 [4298.18,10677.1,400], //NWA North
 [4517.72,10279.4,400], //NWA Central
 [4784.56,9867.63,400], //NWA South
@@ -149,46 +150,55 @@ Military = [
 [4758.15,2489.38,400], //BalotaMil West
 [4930.58,2391.46,400], //BalotaMil Central
 [5140.26,2269.06,400], //BalotaMil East
-[3725.44,6001.84,300] //Green Mountain
+[3725.44,6001.84,400], //Green Mountain 
+[6332.37,7805.68,400]  //Stary Mil Depot
+//[8124,9041,250]  	   //Altar Mil Base          
 ];                      
                         
 NoBuildings = [         
-[10274.2,12047.9,300], //Black Mountain
-//[11247.7,4282.75,300], //Rog
-[6896.64,11437.2,300], //Devils Castle
-[6536.29,5594.81,300] //Zub
+[10274.2,12047.9,250],  //Black Mountain
+[11247.7,4282.75,150],  //Rog
+[6896.64,11437.2,250],  //Devils Castle
+[4076, 11690,450],		// Bash
+[4073, 11619,450],		// Bash
+[3961, 11645,450],		// Bash
+[4016, 11648,450],		// Bash
+[13571,3163,350]		// ai island
 ];                      
                         
 MainCitiesOnly = [              
-[1909.46,2245.71,300], //Kamenka
-[3642.42,2472.86,300], //Komorovo
-[4499.99,2454.42,300], //Balota
-[6603.16,2429.36,300], //Cherno Firestation
-[7062.82,2726.4,300], //Cherno Construction Site
-[6501.68,2678.82,300], //Cherno Factory
-[10153.3,1976.83,300], //Elektro West
-[10483.1,2311.19,300], //Elektro East
-[10544.5,2148.95,300], //Elekro South-East
-[10454.9,2527.51,300], //Elektro North
-[12966.3,10108.2,300], //Berezino North
-[12732.5,9635.93,300], //Berezino Lumbermill
-[12227.9,9468.11,300], //Berezino North-South
-[12018.1,9061.24,300], //Berezino South-West
-[7076.81,7685.28,300], //Novy
-[2716.55,5438.23,300], //Zeleno North-West
-[2911.71,5480.03,300], //Zeleno North-East
-[2669.2,5117.12,300], //Zeleno South
-[2245.84,5247.34,300], //Zeleno West
-[1709.18,5089.06,300], //Zeleno Far West
-[3840.46,8853.16,300] //Vybor
+[1909.46,2245.71,400], //Kamenka
+[3642.42,2472.86,400], //Komorovo
+[4499.99,2454.42,400], //Balota
+[6603.16,2429.36,400], //Cherno Firestation
+[7062.82,2726.4,400],  //Cherno Construction Site
+[6767,2860,400], 	   //Cherno Factory north east
+[6501.68,2678.82,400], //Cherno Factory
+[10153.3,1976.83,400], //Elektro West
+[10483.1,2311.19,400], //Elektro East
+[10544.5,2148.95,400], //Elekro South-East
+[10454.9,2527.51,400], //Elektro North
+[12024.9,3589.48,400], //Kamyshovo
+[12966.3,10108.2,400], //Berezino North
+[12732.5,9635.93,400], //Berezino Lumbermill
+[12227.9,9468.11,400], //Berezino North-South
+[12018.1,9061.24,400], //Berezino South-West
+[7076.81,7685.28,400], //Novy
+[6088.33,7752.88,400], //Stary
+[2716.55,5438.23,400], //Zeleno North-West
+[2911.71,5480.03,400], //Zeleno North-East
+[2669.2,5117.12,400],  //Zeleno South
+[2245.84,5247.34,400], //Zeleno West
+[1709.18,5089.06,400], //Zeleno Far West
+[3840.46,8853.16,400]  //Vybor
 ];                      
                         
 NoMansLand = [        
-//[4504,10333,150]       // No man's land
+[11458,11299,350]       // Evac Centre Mission aka No man's land
 ];                      
                         
 Mission = [             
-//[4504,10333,150]        // Mission
+[11465.6,11334.3,175]   // Evac Centre Mission aka Loot & Death
 ];
 
 Heli_Crashes = [  
@@ -196,53 +206,79 @@ Heli_Crashes = [
 ];
 
 Towns = [
-[6088.33,7752.88,300], //Stary
-[8046.44,3296.95,300], //Prigorodki
-[13503.1,4080.27,300], //Krutoy Cap
-[13383.9,5430.58,300], //Three Valleys East
-[13353.2,6251.42,300], //Solichney
-[13125.3,7109.88,300], //Solichney Factory
-[12934.7,8225.37,300], //Nizhnoye
-[11111.1,12317.6,300], //Krastnostav
-[11635.1,12398.2,300], //Krastnostav East
-[12302.9,10775.6,300], //Khelm
-[10436.5,9846.27,300], //Dubrovka
-[10293.2,9550.9,300], //Dubrovka South
-[9869.41,10418.4,300], //North-West
-[10675.5,8036.4,300], //Polana
-[9571.93,8807.8,300], //Gorka
-[11247.3,6549.01,300], //Dolina
-[11287.3,5481.78,300], //Msta
-[10135.6,5431.4,300], //Staroye
-[9652.19,6557.21,300], //Shakhovka
-[8610.68,11873,300], //Gvondzo
-[8758.18,11647.2,300], //Gvonzo South
-[8103.27,11592.3,300], //Gvondzo West
-[8451.53,6674.37,300], //Guglovo
-[9156.6,3887.02,300], //Pusta
-[7546.18,5144.07,300], //Mogilevka
-[6530.36,6088.62,300], //Vyshnoye
-[6791.75,5611.44,300], //Vyshnoye South-East
-[5835.65,4761.54,300], //Nadehzdino
-[4441.97,4659.93,300], //Kozlovka
-[4461.28,6416.78,300], //Pogorevka
-[4770.55,6772.89,300], //Rogovo
-[4929.85,5592.49,300], //Pulkovo
-[5256.52,5495.96,300], //Pulkovo East
-[3439.17,4952.53,300], //Drozhino
-[3316.84,3936.27,300], //Bor
-[5980.25,10343.4,300], //Grishino
-[4997.38,12505.3,300], //Petrovka
-[5334.47,8588.29,300], //Kabanino
-[2693.31,9960.94,300], //Lopatino
-[2518.38,9653.05,300], //Lopatino South
-[3044.95,7893.8,300], //Pustoka
-[1994.23,7336.59,300], //Myshkino
-[2527.03,6346.84,300], //Sosnovka
-[1688.03,3848.96,300], //Pavlovo
-[13358.8,12887,300] //Olsha
+[6788.06,3338.26,400], //Vysota - North East of Cherno
+[1909.46,2245.71,400], //Kamenka
+[3642.42,2472.86,400], //Komorovo
+[4499.99,2454.42,400], //Balota
+[6603.16,2429.36,400], //Cherno Firestation
+[7062.82,2726.4,400],  //Cherno Construction Site
+[6767,2860,400], 	   //Cherno Factory north east
+[6501.68,2678.82,400], //Cherno Factory
+[10153.3,1976.83,400], //Elektro West
+[10483.1,2311.19,400], //Elektro East
+[10544.5,2148.95,400], //Elekro South-East
+[10454.9,2527.51,400], //Elektro North
+[12024.9,3589.48,400], //Kamyshovo
+[12966.3,10108.2,400], //Berezino North
+[12732.5,9635.93,400], //Berezino Lumbermill
+[12227.9,9468.11,400], //Berezino North-South
+[12018.1,9061.24,400], //Berezino South-West
+[7076.81,7685.28,400], //Novy
+[6088.33,7752.88,400], //Stary
+[2716.55,5438.23,400], //Zeleno North-West
+[2911.71,5480.03,400], //Zeleno North-East
+[2669.2,5117.12,400],  //Zeleno South
+[2245.84,5247.34,400], //Zeleno West
+[1709.18,5089.06,400], //Zeleno Far West
+[3840.46,8853.16,400], //Vybor
+[8046.44,3296.95,400], //Prigorodki
+[13503.1,4080.27,400], //Krutoy Cap
+[13383.9,5430.58,400], //Three Valleys East
+[13353.2,6251.42,400], //Solichney
+[13125.3,7109.88,400], //Solichney Factory
+[12934.7,8225.37,400], //Nizhnoye
+[11111.1,12317.6,400], //Krastnostav
+[11635.1,12398.2,400], //Krastnostav East
+[12302.9,10775.6,400], //Khelm
+[10436.5,9846.27,400], //Dubrovka
+[10293.2,9550.9,400],  //Dubrovka South
+[9869.41,10418.4,400], //North-West
+[10675.5,8036.4,400],  //Polana
+[9571.93,8807.8,400],  //Gorka
+[11247.3,6549.01,400], //Dolina
+[11287.3,5481.78,400], //Msta
+[10135.6,5431.4,400],  //Staroye
+[9652.19,6557.21,400], //Shakhovka
+[8610.68,11873,400],   //Gvondzo
+[8758.18,11647.2,400], //Gvonzo South
+[8103.27,11592.3,400], //Gvondzo West
+[8451.53,6674.37,400], //Guglovo
+[9156.6,3887.02,400],  //Pusta
+[7546.18,5144.07,400], //Mogilevka
+[6530.36,6088.62,400], //Vyshnoye
+[6791.75,5611.44,400], //Vyshnoye South-East
+[5835.65,4761.54,400], //Nadehzdino
+[4441.97,4659.93,225], //Kozlovka
+[4461.28,6416.78,400], //Pogorevka
+[4770.55,6772.89,400], //Rogovo
+[4929.85,5592.49,400], //Pulkovo
+[5256.52,5495.96,150], //Pulkovo East
+[3439.17,4952.53,400], //Drozhino
+[3316.84,3936.27,400], //Bor
+[5980.25,10343.4,400], //Grishino
+[4997.38,12505.3,400], //Petrovka
+[5334.47,8588.29,400], //Kabanino
+[2693.31,9960.94,400], //Lopatino
+[2518.38,9653.05,400], //Lopatino South
+[3044.95,7893.8,400],  //Pustoka
+[1994.23,7336.59,400], //Myshkino
+[2527.03,6346.84,400], //Sosnovka
+[1688.03,3848.96,400], //Pavlovo
+[13358.8,12887,400],   //Olsha
+[11838,7326,500],	   //Factory and Orlovets
+[14214,14116,250]      // Static AI Mission 
+//[9632, 13534,250]    // Pobeda dam 
 ];
-*/
 
 /*
 // Australia
@@ -495,5 +531,69 @@ Towns = [
 [6480.19,2035.52,300], //Sultansafe
 [8876.75,5299.65,300], //Timurkalay
 [9840.07,11483.5,300] //Zavarak
+];
+
+*/
+
+/*
+// Isla Abramia
+
+Military = [ 			
+[3935.55,7408.44,215],	// Camp Fisher
+[9015.166,6269.32,215], // Prato Airfield
+[813.03,6322.26,215],	// FOB Medvedovo
+[1745.4,1490.21,100],	// UN Base
+[4271.45,3013.63,180],	// Yolandi Airport
+[7117.23,496.98,180],   // Braz Army Base
+[8943.92,1577.95,180],	// Army Base Xray
+[5372.74,1416.12,180],	// Ops Airbase
+[7170.51,8466.79,180]	// Vucco Airport
+]; 
+// Mountains 
+NoBuildings = [   		      
+[4658.97,4208.78,100],	 // Mt Rooker 
+[3908.15,7904.96,100],	 // Mt Cristallo
+[3907.81,6714.75,100],	 // G2 Peak
+[4433.47,7355.67,100],	 // Mt Spidee
+[4880.17,4902.39,100],	 // Hayden Peak
+[2816.59,8701.81,100],	 // Robber Peak
+[2833.59,1654.24,100]	 // Mt Ferro, 
+]; 
+
+MainCitiesOnly = [  	            
+[9844.235,2368.708,180], // Beltraz 
+[1545.61,6354.34,180],	 // Sakovo
+[6147.4,3186.58,180],    // Rybak
+[7135.8,1042.3,180],	 // Braz
+[8396.55,644.69,180], 	 // Bella Aurora
+[7970.23,1826.33,180],   // Albertin
+[3685.89,3315.5,180],	 // Yolandi
+[9397.32,9282.27,180]	 // Serval
+]; 
+
+NoMansLand = [        
+						// No man's land
+];                      
+                        
+Mission = [             
+						// Mission
+];
+
+Heli_Crashes = [  
+"Heli_Crashes"           
+];
+
+Towns = [ 
+[1417.61,3678.31,125],	// Low dion
+[5704.22,1399.2,125],	// Saira
+[4231.33,771.44,125],	// Celebici
+[8197.93,4095.24,125],	// Blanco
+[1980,8938.29,125],		// Pepinal,
+[6757.86,8564.63,125],  // Vucoyeb
+[1910.86,1583.54,125],	// Focha
+[8391.78,2108.41,125],	// Chorra
+[9086.64,1809.41,80],	// Monastery
+[8192.84,3586.52,80],	// Mental
+[9536.38,9911.55,180]	// Skelter             		
 ];
 */
